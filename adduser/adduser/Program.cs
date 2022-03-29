@@ -4,9 +4,6 @@ using System.DirectoryServices;
 class adduser
 {
     static void Adduser(string username,string password ,string group) {
-        //string username = "";
-        //string password = "";
-        //string group = "";
 
         try
         {
