@@ -12,9 +12,10 @@ Usage：adduser.exe <username> <password> <group>
 
 
 
-### 0x02 Smbinfo
+### 0x02 NtlmInfo
 
-利于NTLM type2 阶段返回系统信息的特性进行信息收集，收集主机是否在域内，主机名称等信息。
+利于NTLM type2 阶段返回系统信息的特性进行信息收集，收集主机是否在域内，主机名称等信息；包括利用Smb、Wmi、WmiRM等协议。
+以Smbinfo为例：  
 
 ```
 Usage: Smbinfo.exe ip 192.168.1.1 445/139;  Scan single IP.
