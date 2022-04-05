@@ -1,18 +1,18 @@
 # SharpTools
 CSharp后渗透工具集
 
-### addUser
+### 0x01 addUser
 bypass AV添加用户  
 ```
 Usage：adduser.exe <username> <password> <group>
 ```
-![image](./img/adduser.png). 
+![image](./img/adduser.png)
 
   
 
 
 
-### Smbinfo
+### 0x02 Smbinfo
 
 利于NTLM type2 阶段返回系统信息的特性进行信息收集，收集主机是否在域内，主机名称等信息。
 
@@ -22,12 +22,12 @@ Usage: Smbinfo.exe ips 192.168.1.1 445/139; Scan segment C.
 ```
 
 扫描单个IP
-![image](./img/smbinfoip.png). 
+![image](./img/smbinfoip.png)
 
 扫描C段
-![image](./img/smbinfoips.png). 
+![image](./img/smbinfoips.png)
 
 CS内存加载
 
-![image](./img/smbinfocs.png). 
+![image](./img/smbinfocs.png)
 
